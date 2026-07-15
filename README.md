@@ -49,7 +49,7 @@ _The patcher validates the APK size and SHA-256 hash before starting. Other vers
 
 ### How to Generate the Game Files
 
-1. Open the `Release/Patcher v1.0` folder.
+1. Open the `Release/Patcher vX.X` folder.
 2. Place exactly one compatible APK inside its `APK` folder.
 3. Run `BeachBuggyRacingPatcher.exe`.
 4. Select the interface language.
@@ -65,7 +65,7 @@ The patcher supports English, Brazilian Portuguese, Spanish, French, European Po
 
 ### Installation on PS Vita
 
-1. Install `beach_buggy_racing.vpk` using VitaShell or FMVita.
+1. Install `BeachBuggyRacing Vita-vX.X.vpk` using VitaShell or FMVita.
 2. Copy the generated `beachbuggyracing` folder to `ux0:data/`.
 3. Confirm that the final path is:
 
