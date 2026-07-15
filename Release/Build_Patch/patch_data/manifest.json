@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "game": "Beach Buggy Racing",
+  "apk_name": "Beach Buggy Racing 1.2.22 (126).apk",
+  "apk_size": 82905565,
+  "apk_sha256": "0777b6e2961f21ef286a13a475ad1744caee7b48f2ddb9574ed0dce1d1ea8541",
+  "output_folder": "beachbuggyracing",
+  "files": [
+    {
+      "output": "assets/Assets.apf",
+      "source": "assets/Assets.apf",
+      "size": 36167810,
+      "sha256": "a880356cee0d7b7a332dde20c09cbe05e21ab2f2029faa62a9109efe6df85b6f",
+      "mode": "copy"
+    },
+    {
+      "output": "assets/Expansion.apf",
+      "source": "assets/Expansion.apf",
+      "size": 35590803,
+      "sha256": "f0bff7b35ad784d41ddc496fbbf27022085f0daaed354e7eea23f7f7a49ef68d",
+      "mode": "copy"
+    },
+    {
+      "output": "libfmod.so",
+      "source": "lib/armeabi-v7a/libfmod.so",
+      "size": 914840,
+      "sha256": "6fc87eb9ca1fd7247a919e3017883cefd4ed66e112b9722308e579030a221947",
+      "mode": "copy"
+    },
+    {
+      "output": "libfmodstudio.so",
+      "source": "lib/armeabi-v7a/libfmodstudio.so",
+      "size": 883124,
+      "sha256": "77b0af416b17a5a4d3c80ff65519f5209d22e3d0fe06a19a3c1cd304d2e77f7e",
+      "mode": "copy"
+    },
+    {
+      "output": "libPurple.so",
+      "source": "lib/armeabi-v7a/libPurple.so",
+      "size": 4682176,
+      "sha256": "3596b5f5be1aa43dcd513a1170cacced7c55e9b41774567671f6088b7440b5fc",
+      "mode": "copy"
+    }
+  ]
+}

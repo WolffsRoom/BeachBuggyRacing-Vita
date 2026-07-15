@@ -1,0 +1,12 @@
+# Commercial input/data files must never be committed.
+Release/Build_Patch/APK/*.apk
+Release/Build_Patch/VitaFiles/beachbuggyracing/
+
+# Generated patcher build artifacts.
+Release/Build_Patch/src/build/
+Release/Build_Patch/src/dist/
+Release/Build_Patch/src/__pycache__/
+*.pyc
+
+# VitaSDK/CMake build output.
+build/

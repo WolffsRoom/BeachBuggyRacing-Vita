@@ -1,0 +1,40 @@
+BEACH BUGGY RACING PATCHER - AMBIENTE DE DESENVOLVIMENTO
+
+Port by MeninoSung
+Patcher by WolffsRoom
+
+Esta pasta contem tudo o que e usado para criar ou atualizar o patcher.
+
+ESTRUTURA
+
+APK\
+  APK de referencia exato usado para gerar as diferencas binarias.
+
+VitaFiles\beachbuggyracing\
+  Arquivos finais preparados pelo DEV. Esta e a saida esperada do patcher.
+
+patch_data\
+  Manifesto e diferencas binarias incorporados no executavel final.
+
+src\build_patch_data.py
+  Compara o APK de referencia com VitaFiles e recria patch_data.
+
+src\beach_buggy_racing_patcher.py
+  Codigo-fonte do patcher entregue ao usuario.
+
+src\BeachBuggyRacingPatcher.spec
+  Configuracao usada pelo PyInstaller para criar o executavel.
+
+Build_Patcher.bat
+  Menu automatizado para recompilar somente o executavel ou atualizar as
+  diferencas binarias e depois recompilar tudo.
+
+O executavel final e copiado automaticamente para:
+..\Patcher v1.0\BeachBuggyRacingPatcher.exe
+
+Dependencias de desenvolvimento:
+  Python 3
+  bsdiff4
+  PyInstaller
+
+O usuario final nao precisa instalar nenhuma dependencia.

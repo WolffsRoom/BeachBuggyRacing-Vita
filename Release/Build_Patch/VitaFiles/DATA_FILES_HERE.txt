@@ -1,0 +1,5 @@
+The expected developer reference output belongs in:
+
+VitaFiles/beachbuggyracing/
+
+These extracted commercial data files must not be committed to the repository.
